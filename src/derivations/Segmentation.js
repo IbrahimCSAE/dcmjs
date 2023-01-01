@@ -405,7 +405,7 @@ export default class Segmentation extends DerivedPixels {
         const reNumberedSegmentCopy = {
             SegmentedPropertyCategoryCodeSequence:
                 Segment.SegmentedPropertyCategoryCodeSequence,
-            SegmentNumber: (SegmentSequence.length + 1).toString(),
+            SegmentNumber: Segment.SegmentNumber,
             SegmentLabel: Segment.SegmentLabel,
             SegmentAlgorithmType,
             RecommendedDisplayCIELabValue:
