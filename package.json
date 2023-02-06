@@ -1,6 +1,6 @@
 {
-  "name": "dcmjs",
-  "version": "0.24.0",
+  "name": "dcmjs_coreslicer",
+  "version": "0.25.0",
   "description": "Javascript implementation of DICOM manipulation",
   "main": "build/dcmjs.js",
   "module": "build/dcmjs.es.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dcmjs-org/dcmjs.git"
+    "url": "git+https://github.com/IbrahimCSAE/dcmjs.git"
   },
   "author": "Steve Pieper",
   "license": "MIT",
