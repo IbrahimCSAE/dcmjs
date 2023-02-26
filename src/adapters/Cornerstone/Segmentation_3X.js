@@ -239,7 +239,7 @@ function generateToolState(imageIds, arrayBuffer, metadataProvider) {
 
     const imagePlaneModule = metadataProvider.get(
         "imagePlaneModule",
-        imageIds[0]
+        imageIds[Math.ceil(imageIds.length / 2)]
     );
 
     if (!imagePlaneModule) {

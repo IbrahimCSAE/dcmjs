@@ -285,12 +285,13 @@ function generateToolState(
 
     const imagePlaneModule = metadataProvider.get(
         "imagePlaneModule",
-        imageIds[0]
+        // use the middle imageId, cover slices cause this to trigger (Perpendicular) error
+        imageIds[Math.ceil(imageIds.length / 2)]
     );
 
     const generalSeriesModule = metadataProvider.get(
         "generalSeriesModule",
-        imageIds[0]
+        imageIds[Math.ceil(imageIds.length / 2)]
     );
 
     const SeriesInstanceUID = generalSeriesModule.seriesInstanceUID;
